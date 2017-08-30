@@ -1,0 +1,10 @@
+{
+  "name": "html-css-workshop",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "live-server --open=src/index.html --ignore=.git ./"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}

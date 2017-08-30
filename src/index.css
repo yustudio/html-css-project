@@ -1,0 +1,23 @@
+.page-container {
+    display: flex;
+    justify-content:flex-start;
+}
+.left-menu-bar {
+    width: 160px;
+}
+.content-body {
+    display: flex;
+    flex-direction: column;
+}
+.content-body-upper {
+    display: flex;
+}
+.content-body-upper-left {
+    width: 60%;
+}
+.content-body-upper-box {
+    width:40%;
+}
+.clear-div {
+    clear: both;
+}
