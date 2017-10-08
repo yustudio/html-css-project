@@ -1,15 +1,4 @@
-# HTML & CSS Workshop
-Try to reproduce the look of the [npm Wikipedia page](https://en.wikipedia.org/wiki/Npm_\(software\)).
-
-Focus on layout first; don't worry about specifics like links, fonts, colors, sizes.
-
-Don't use any JavaScript or CSS preprocessors.
-
-You may choose your browser target.
-
-Use semantic HTML:
-
-![Semantic HTML layout](http://media02.hongkiat.com/html-5-semantics/document-outline-example.jpg)
+# HTML & CSS sandbox
 
 ## Setup
 To get started:

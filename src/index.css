@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;    
+}
+
+.cards-section {
+    background-color: rgb(239, 235, 235);
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-left: 1%;
+}
+
+.card-container {
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.card-item {
+    transition: .3s ease-out;
+    box-shadow: 10px 10px 5px 0px #BFC0C0;
+}
+
+.card-item:hover {
+    transition: .3s ease-out;
+    margin-top: -5px;
+    box-shadow: 12px 12px 10px 0px #515D5D;
+}
+
+.card-image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-item-image {
+    max-width: 100%;
+    transition: .3s ease-out;
+}
+
+.card-item:hover .card-item-image {
+    transform: scale(1.1);
+    transition: .3s ease-out;
+}
+
+.progress-bar-container {
+    padding: 10px 0;
+}
+
+.progress-bar {
+    background: black;
+    transition: .3s ease-out;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    width: 20px;
+    height: 3px;
+    
+}
+
+.card-item:hover .progress-bar {
+    transition: .3s ease-out;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    width: 100px;
+ }
+
+.card-item:hover .card-headline-container {
+    transition: .3s ease-out;
+    padding: 5px 0 10px 0;
+}
+
+.card-item:hover .card-description-container {
+    transition: .3s ease-out;
+    padding: 10px 0px 0px 0px;
+}
+
+.card-text-content-container {
+    background: #FAFAFA;
+}
+
+.card-text-content {
+    padding: 20px 20px;
+}
+
+.card-headline-container {
+    transition: .3s ease-out;
+    padding: 10px 0 5px 0;
+    font-size: 39px;
+    transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-description-container {
+    transition: .3s ease-out;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablet */
+    .card-container {
+        width: 49%
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop */
+    .card-container {
+        width: 33%
+    }
+}
